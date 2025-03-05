@@ -54,7 +54,7 @@ def home():
                 'message':response,
                 'target':sender,
             }
-            fonte_setup.set_token('o1AY55mzsCxZtHcUbbut')
+            fonte_setup.set_token(token)
 
             fonte_setup.send_message(data)
             return jsonify({"status": "success", "message": "Message sent"})

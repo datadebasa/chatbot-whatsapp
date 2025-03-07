@@ -24,7 +24,7 @@ class FonteSetup():
 
 class chatBootSetup():
     def __init__(self):
-        self._endpoint = 'https://chat-boot-wa.vercel.app/generate'
+        self._endpoint = 'https://chatbot-batch1.vercel.app/generate'
 
     def get_message(self, prompt):
         enpoint = f'{self._endpoint}?promt={prompt}'
